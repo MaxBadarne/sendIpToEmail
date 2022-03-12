@@ -16,3 +16,4 @@ when you are done, run "run.py".
 
 * Libraries used: smtplib, ssl, requests, datetime, os, time
 * Logs will be saved locally
+For any real python developers, I would really love any sort of feedback. I welcome suggestions and bugs, if you find any problem or have a better way of writing certian parts, please feel free to send.
