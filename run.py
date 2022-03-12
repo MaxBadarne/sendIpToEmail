@@ -7,6 +7,6 @@ while(True):
 	sendip.do()
 	sendemail.sendip()
 	os.remove("temp.txt")                        
-	time.sleep(86400)
+	time.sleep(private.timetowait)
 	
         
