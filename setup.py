@@ -1,0 +1,30 @@
+x = open("data/private.py", "w")
+#time to wait
+x.write("timetowait = ")
+timetowait= input("how much time to wait? (seconds) \n")
+x.write(timetowait)
+x.write("\n")
+#userlogin
+x.write("senderadress = ")
+x.write('"')
+senderadress= input("What is your email : \n")
+x.write(senderadress)
+x.write('"')
+x.write("\n")
+#password
+x.write("password = ")
+x.write('"')
+password= input("Please input password \n")
+x.write(password)
+x.write('"')
+x.write("\n")
+#reciever
+x.write("recieveradress = ")
+x.write('"')
+recieveradress= input("What is the recievers adress ?")
+x.write(recieveradress)
+x.write('"')
+x.write("\n")
+print("successfully written!")
+
+x.close()
