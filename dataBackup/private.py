@@ -1,0 +1,4 @@
+timetowait = 
+senderadress = ""
+password = ""
+recieveradress = ""
