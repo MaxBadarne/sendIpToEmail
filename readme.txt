@@ -14,4 +14,5 @@ when you are done, run "run.py".
 
 
 
-(Libraries used: smtplib, ssl, requests, datetime, os, time)
+* Libraries used: smtplib, ssl, requests, datetime, os, time
+* Logs will be saved locally
