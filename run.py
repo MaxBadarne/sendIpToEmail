@@ -13,9 +13,9 @@ def run():
 	
         
 while(True):
-	try:	
+	try:
 		time.sleep(1)
-    		run()
+		run()
 	except Exception as e:
     		logging.error(traceback.format_exc())
     # Logs the error appropriately. 
