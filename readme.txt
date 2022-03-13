@@ -1,14 +1,14 @@
 Hello and welcome to "Sendiptoemail"
 
-This python script will allow you to regularly send the ip of your current machine to your email address.
+This python script will allow you to regularly send the ip of your current machine to an email address.
 
-To start, you need to create the account you will send emails from, I highly recommend that you create a new gmail.
+To start, an account needs to be created, from which emails will be sent, I highly recommend creating a new gmail account (the account will be less secure).
 
-Then go to account settings -> privacy -> let secure apps access , and turn it on (see screenshots).
+Then go to account settings -> privacy -> let secure apps access , and turn it on (see screenshots in the Instructions folder).
 
 run "setup.py" and input all the needed information.
 
-when you are done, run "run.py".
+when finished, run "run.py".
 
 
 
