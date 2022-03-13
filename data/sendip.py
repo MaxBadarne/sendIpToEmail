@@ -45,7 +45,10 @@ def do():
 	writelogf(x,y)
 	writesendf(x,y)
 	printinfo(x,y)
-writesendf(x,y)
+def donp():
+	writelogf(x,y)
+	writesendf(x,y)
+
 
 	
 	
