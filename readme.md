@@ -11,7 +11,7 @@ git clone https://github.com/MaxBadarne/sendIpToEmail.git
 ```rb
 cd sendIpToEmail
 ```
-3- Install all the requirements
+3- Install all the requirements with pip
 ```rb
 pip install git+https://github.com/elasticemail/elasticemail-python.git
 pip install -r requirements.txt
