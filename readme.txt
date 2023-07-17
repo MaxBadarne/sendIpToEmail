@@ -1,4 +1,4 @@
-Hello and welcome to "Sendiptoemail".
+Hello and welcome to "SendIpToEmail".
 
 This python script will allow you to regularly send the ip of your current machine to an email address.
 
