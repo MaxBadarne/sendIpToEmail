@@ -9,7 +9,7 @@ git clone https://github.com/MaxBadarne/sendIpToEmail.git
 ```
 2- Navigate to the sendIpToEmail directory
 ```rb
-cd SendIpToEmail
+cd sendIpToEmail
 ```
 3- Install all the requirements
 ```rb
