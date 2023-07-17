@@ -1,5 +1,5 @@
-timetowait = 1
-apikey = ""
+timetowait = 86400 
+apikey = "" 
 signupemail = ""
 recieveradress = ""
 TerminalActivated = True

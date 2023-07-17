@@ -1,5 +1,5 @@
 import time
-from data import sendip
+from data import getip
 from data import sendemail
 from data import private 
 import os
@@ -8,12 +8,12 @@ import logging
 
 def run():
 	if(private.TerminalActivated):
-		sendip.do()
+		getip.do()
+		print(sendemail.sendip())
 	else:
-		sendip.do_no_terminal()
-	time.sleep(1)
-	sendemail.sendip()
-	                       
+		getip.do_no_terminal()
+		sendemail.sendip()
+	time.sleep(1)      
 	time.sleep(private.timetowait)
 
 # in case of no connection, The script will keep trying to connect every second and then send the address
