@@ -39,5 +39,5 @@ The script will send your ip regularly as long as its running.
 * Known Bugs : 
     - Sometimes an empty email will be sent, it seems to be a problem only when running the script for the first time after setting it up
 * Logs will be saved locally in data/logs .
-* A special Thank you to Elasticemail for their beautiful API documentation and for their amazing services.
+* A special Thank you to @ElasticEmail for their beautiful API documentation and for their amazing services.
 * Feedback is always appreciated, I welcome any suggestion and or bug, if you find any problem or have a better way of writing certain parts, please feel free to make a pull request.
