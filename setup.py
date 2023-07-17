@@ -23,18 +23,17 @@ def writetofile(key,value, timephase):
 def getTimeToWait():
     timetowait= input("how much time to wait? (seconds) \n")
     writetofile(key="timetowait",value=timetowait, timephase="int")
-#userlogin
-def getSenderAdress(): 
-    senderadress= input("What is your email : \n")
-    writetofile(key="senderadress", value=senderadress, timephase="str")
-#password
-def getPassword():
-    password= input("Please input password \n")
-    writetofile(key="password", value=password, timephase="str")
+#APIkey
+def getAPIKey():
+    APIKey= input("Please input APIKey \n")
+    writetofile(key="apikey", value=APIKey, timephase="str")
 #reciever
 def getRecieverAdress():
     recieveradress= input("What is the recievers adress ?")
     writetofile(key="recieveradress", value=recieveradress, timephase="str")
+def getSignUpEmail():
+    signupemail= input("What is the sign up email ?")
+    writetofile(key="signupemail", value=signupemail, timephase="str")
 #Terminal Activation
 def getTerminalActivation():
     TerminalActivate = str(input("Would you like The terminal to print The info? (Y/n)")).strip().lower()
@@ -53,8 +52,8 @@ def getTerminalActivation():
 def getInformation():
         initWriteToFile()
         getTimeToWait()
-        getSenderAdress()
-        getPassword()
+        getAPIKey()
+        getSignUpEmail()
         getRecieverAdress()
         getTerminalActivation()
         #here you may add a check funtion that checks the file

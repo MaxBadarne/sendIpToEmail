@@ -13,7 +13,7 @@ def writelogf(x,y):
 	logf.close()
 # Create a temporarly file that will be later sent
 def writesendf(x,y):
-	sendf = open("temp.txt" ,"w")
+	sendf = open("data/temp.txt" ,"w")
 	bigStringToWrite = str('"""' +"\n" +"Time and date: " +str(now) + "\n" +"Public IPv4 Adress : " +x +"\n" +"Public IPv6 Adress is :" +y +"\n" +'"""')
 	sendf.write(bigStringToWrite)
 	sendf.close()

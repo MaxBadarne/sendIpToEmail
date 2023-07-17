@@ -11,8 +11,9 @@ def run():
 		sendip.do()
 	else:
 		sendip.do_no_terminal()
+	time.sleep(1)
 	sendemail.sendip()
-	os.remove("temp.txt")                        
+	                       
 	time.sleep(private.timetowait)
 
 # in case of no connection, The script will keep trying to connect every second and then send the address
