@@ -14,7 +14,7 @@ cd sendIpToEmail
 3- Install all the requirements
 ```rb
 pip install git+https://github.com/elasticemail/elasticemail-python.git
-pip install requirements.txt -r
+pip install -r requirements.txt
 ```
 4- Create an ElasticMain account and Generate an API key | Follow [/Instructions/ElasticEmail_Instructions.md](Instructions/ElasticEmail_Instructions.md)
 
