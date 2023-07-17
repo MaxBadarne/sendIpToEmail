@@ -1,25 +1,33 @@
-Hello and welcome to "SendIpToEmail".
+### welcome to "SendIpToEmail"
 
 a python script to regularly send the ip of your current machine to an email address.
 
 To use you will first need to do 
-
+```rb
 git clone https://github.com/MaxBadarne/sendIpToEmail.git
-
-and then navigate to the sendIpToEmail folder 
+```
+and then navigate to the sendIpToEmail folder:
+```rb
 cd sendIpToEmail
-
-and run those commands to install all the requirements
-
+```
+and run those commands to install all the requirements:
+```rb
 pip install git+https://github.com/elasticemail/elasticemail-python.git
 pip install requirements.txt -r
-
-Then create an ElasticMain account and an API | Follow /Instructions/ElasticEmail Instructions.md
+```
+Then create an ElasticMain account and Generate an API key | Follow [/Instructions/ElasticEmail_Instructions.md](Instructions/ElasticEmail_Instructions.md)
 
 run "setup.py" and input all the needed information.
-//if no "time to wait" specified, the script will set itself to send an email every 24 hours
+<!-- if no "time to wait" specified, the script will set itself to send an email every 24 hours -->
+
+```rb
+python3 setup.py
+```
 
 when finished, run "run.py".
+```rb
+python3 run.py
+```
 
 The script will send your ip regularly as long as its running.
 
